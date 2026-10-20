@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus Resources</title>
+    <link rel="icon" type="image/png" href="image/Block_M-Hex.png" />
+    <link rel="stylesheet" href="css/html5reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Campus Resources | UMSI</title>
 </head>
 <body>
 
     <header>
-    <a href = "#main">Skip to Main Content</a>
-            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+    <a href = "#main" class="skip-link">Skip to Main Content</a>
             <nav>
                 <ul>
                     <li><a href = "index.html">Home</a></li>
@@ -18,16 +20,20 @@
                     <li><a href = "campus_resources.html">Campus Resources</a></li>
                 </ul>
             </nav>
-        <h1>Campus Resources</h1>
+        <h1> <img class="signature" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">Campus Resources</h1>
     </header>
 
     <main id="main">
-        <section>
+        <section class="intro">
             <h2>You Have a Campus Community Behind You.</h2>
             <p>Finding and completing an engaged learning experience doesn't have to be something you do alone.</p>
         </section>
 
-        <section>
+        <div class="contacts-image">
+        <img src="images/DBRN_StudentsinCASL_2024_1.JPG" alt="Students work together in the CASL lab.">
+        </div>    
+
+        <section class="contacts textblock">
             <h2>Engaged Learning Office</h2>
             <p>Your starting point for engaged learning at UMSI.</p>
             <p>The Engaged Learning Office works with organizations across industries and sectors to create project-based opportunities for UMSI students.</p>
@@ -38,12 +44,15 @@
             <p>2200 Hayward Street</p>
             <p>Ann Arbor, MI 48109</p>
             <p>Phone: (734) 936-8735</p>
-            <p>Email: [Engaged Learning Office email]</p>
             <a href="#">[Contact the Engaged Learning Office →]</a>
             </article>
         </section>
 
-        <section>
+        <div class="career-image">
+        <img src="images/MCOMMONS-NorthCampusGoBlueBash-04.jpg.JPG" alt="Students attend a U-M career fair.">
+        </div>
+
+        <section class="career textblock">
             <h2>CAREER DEVELOPMENT</h2>
             <p>Turn Experience Into Opportunity.</p>
             <article>
@@ -61,7 +70,11 @@
             </article>
         </section>
 
-        <section>
+        <div class="support-image">
+        <img src="images/UMSI_DesignJam_02142022_01.JPG" alt="Students work together in a UMSI class.">
+        </div>
+
+        <section class="support textblock">
             <h2>ACADEMIC & STUDENT SUPPORT</h2>
             <article>
             <p>UMSI's Academic Success team provides support tailored to students' individual needs, including students with disabilities, transfer students, first-generation students, and student caregivers.</p>
@@ -69,7 +82,11 @@
             </article>
         </section>
 
-        <section>
+        <div class="accessibility-image">   
+        <img src="images/UMSI_ViewbookPHD2026_09.jpg" alt="A student works on a laptop in the U-M Duderstadt Center.">
+        </div>
+
+        <section class="accessibility textblock">
             <h2>ACCESSIBILITY SUPPORT</h2>
             <h3>Need an Accommodation?</h3>
             <p>U-M's Student Accessibility and Accommodation Services provides support for disabled students, including academic and housing accommodations.</p>
@@ -86,18 +103,27 @@
             <a href="#">[Visit Student Accessibility & Accommodation Services →]</a>
             </article>
         </section>
+       
+        <div class="disability-image">    
+        <img src="images/UMSI_ViewbookMSI2026_09.jpg" alt="A student works on a laptop in the U-M Duderstadt Center.">
+        </div>
 
-        <section>
+        <section class="disability textblock">
             <h2>DISABILITY EQUITY OFFICE</h2>
             <article>
             <p>The Disability Equity Office works across the University of Michigan to advance accessibility and disability inclusion.</p>
             <p>Students can also use university resources to report physical or digital barriers to access.</p>
             <a href="#">[Report an Accessibility Barrier →]</a>
+            <br>
             <a href="#">[Find Accessibility Resources →]</a>
             </article>
         </section>
+        
+        <div class="digital-image">
+        <img src="images/UMSI_ViewbookBSI2026_20.jpg" alt="Students together in the digital meeting room.">
+        </div>
 
-        <section>
+        <section class="digital textblock">
             <h2>DIGITAL ACCESSIBILITY</h2>
             <article>
             <p>Build Information Experiences Everyone Can Use.</p>
@@ -115,7 +141,11 @@
             </article>
         </section>
 
-        <section>
+        <div class="library-image">
+        <img src="images/MCOMMONS-FinalsStudyLocations2024-22.jpg" alt="Students study in the U-M Hatcher Graduate Library.">
+        </div>
+
+        <section class="library textblock">
             <h2>LIBRARY RESOURCES</h2>
             <article>
             <p>Need research support?</p>
@@ -132,7 +162,11 @@
             </article>
         </section>
 
-        <section>
+        <div class="funding-image">
+        <img src="images/UMSI_ViewbookMSI2026_19.jpg" alt="UMSI students are talking in the public area.">
+        </div>
+        
+        <section class="funding textblock">
             <h2>FUNDING</h2>
             <article>
             <h3>Need Financial Support?</h3>

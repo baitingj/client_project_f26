@@ -1,0 +1,301 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #00274c;
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #ffcb05;
+    line-height: 1;
+    padding: 28px 0;
+    text-align: center;
+    background-color: #00274c;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+li {
+    font-size: 16px;
+}
+
+nav a:hover, nav a:focus {
+    background-color:#111111;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-size: 12px;
+    display:block;
+    color:#ffffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.signature {
+    height: 28px;
+    width:auto;
+    float: left;
+}
+
+.skip-link {
+    background-color: #ffffff;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position:absolute;
+    top:-65px;
+}
+
+.skip-link:focus {
+    position:absolute;
+    top:0;
+}
+
+a:focus {
+    border:#ffcb05 2px solid;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.intro {
+    grid-column: 1 / -1;
+    background-color: #ffcb05;
+    color:#00274c;
+}
+
+.intro h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+
+.intro p {
+    padding: 9px;
+    text-align: left;
+}
+
+.intro-video {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.why_use, .guidance, .featured_programs, .about, .ELO, .contacts, .career, .support, .accessibility, .disability, .digital, .library, .funding, .why_prepare, .work, .goals, .questions, .process, .resources, .conversation {
+    grid-column: 2 / span 3;
+}
+
+.why_use, .contacts, .why_prepare {
+    grid-row: 2;
+}
+
+.guidance, .career, .phase1, .conversation {
+    grid-row: 3;
+}
+
+.featured_programs, .support, .work, .first_week {
+    grid-row: 4;
+}
+
+.about, .accessibility, .goals, .toolkit {
+    grid-row: 5;
+}
+
+.ELO, .disability, .questions, .experience {
+    grid-row: 6;
+}
+
+.digital, .process, .checklist {
+    grid-row: 7;
+}
+
+.library, .resources, .reflect {
+    grid-row: 8;
+}
+
+.funding, .phase2, .future {
+    grid-row: 9;
+}
+
+.why_use-image, .guidance-image, .featured_programs-image, .about-image, .contacts-image, .career-image, .support-image, .accessibility-image, .disability-image, .digital-image, .library-image, .funding-image, .why_prepare-image, .work-image, .goals-image, .questions-image, .process-image, .ready-image, .conversation-image {
+    grid-column: 1 / -1;
+    max-height:675px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.why_use-image, .contacts-image, .why_prepare-image,.ready-image {
+    grid-row: 2;
+}
+
+.guidance-image, .career-image, .conversation-image {
+    grid-row: 3;
+}
+
+.featured_programs-image, .support-image, .work-image {
+    grid-row: 4;
+}
+
+.about-image, .accessibility-image, .goals-image {
+    grid-row: 5;
+}
+
+.disability-image, .questions-image {
+    grid-row: 6;
+}
+
+.digital-image, .process-image {
+    grid-row: 7;
+}
+
+.library-image {
+    grid-row: 8;
+}
+
+.funding-image {
+    grid-row: 9;
+}
+
+.textblock {
+    max-height: 400px;
+    align-self: center;
+    text-align: start;
+    background-color: #ffcb05;
+    color: #00274c;
+    padding: 30px;
+    border: #00274c 10px solid;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.resources {
+    grid-column: 1 / -1;
+    font-size: 14px;
+    color: #00274c;
+    background-color: #ffcb05;
+    padding: 10px;
+}
+
+.phase1, .phase2 {
+    color:#ffcb05;
+    grid-column: 1 / -1;
+    text-align: left;
+    padding: 10px;
+}
+
+.phase1 h2, .phase2 h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.textblock h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.textblock h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.textblock h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.textblock p, .textblock li, .textblock a{
+    font-size: 14px;
+}
+
+.ELO {
+    grid-column: 1 / -1;
+    background-color: #ffcb05;
+    color: #00274c;
+    padding: 20px;
+    border: 0;
+}
+
+.first_week, .orientation, .collaboration, .toolkit, .experience, .checklist, .reflect, .future{
+    grid-column: 1 / -1;
+    max-height: 10000px;
+}
+
+.first_week {
+    font-size: 18px;
+    padding:20px 0 0 0;
+    color:#ffcb05;
+    align-self: center;
+    background-color: #00274c;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.first_week h2 {
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
+.orientation {
+    grid-column: 1 / 2;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.collaboration {
+    grid-column: 2 / 3;
+    max-height: 300px;
+    overflow: auto;
+}
+
+footer {
+    margin: 10px;
+    text-align: end;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+footer address {
+    font-size: 12px;
+}
