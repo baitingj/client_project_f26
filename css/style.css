@@ -545,3 +545,86 @@ footer {
         text-align: start;
     }
 }
+
+.error-hero {
+    background-color: #00274c;
+    color: #ffffff;
+    padding: 32px 20px 40px;
+    text-align: center;
+    border-bottom: 6px solid #ffcb05;
+}
+
+.error-hero .error-code {
+    margin: 0 auto;
+    padding: 0;
+    max-width: none;
+    color: #ffcb05;
+    font-size: clamp(4rem, 16vw, 8rem);
+    font-weight: bolder;
+    line-height: 1;
+    text-align: center;
+}
+
+.error-hero h2 {
+    padding: 8px 0 0;
+    font-size: 28px;
+    color: #ffcb05;
+}
+
+.error-hero p {
+    max-width: 720px;
+    margin: 12px auto 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.error-panel {
+    text-align: center;
+}
+
+.error-panel h2 {
+    font-size: 24px;
+}
+
+.error-content {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.error-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 18px 0;
+    padding: 0;
+    list-style: none;
+    background-color: transparent;
+    overflow: visible;
+}
+
+.error-links li {
+    margin: 0;
+}
+
+.error-links a {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 2px solid #00274c;
+    border-radius: 4px;
+    color: #00274c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.error-links a:hover,
+.error-links a:focus-visible {
+    background-color: #00274c;
+    color: #ffcb05;
+}
+
+.error-links a:focus-visible {
+    outline: 3px solid #00274c;
+    outline-offset: 2px;
+}
